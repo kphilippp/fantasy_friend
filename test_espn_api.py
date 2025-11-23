@@ -1,7 +1,10 @@
 from espn_api.football import League
 from dotenv import load_dotenv
+from pprint import pprint
 import os
 load_dotenv()
+
+
 
 # make sure you pip intsall the packages above
 
@@ -22,15 +25,17 @@ def main():
         espn_s2=ESPN_S2,
     )
 
-    print(league)
 
     # Print a simple sanity check: league name and all team names
     print(f"League Name: {league.settings.name}")
     print(f"Season: {league.year}")
     print("Teams in this league:")
 
+
+    print(league.teams[0])
+    
     for team in league.teams:
-        print(f"- {team.team_name} (owner: {team.owners})")
+        print(f"- {team.team_name} owner: ")
 
     # Example: print your roster for team 1 (change teamId as needed)
     my_team = league.teams[0]  # first team in the list
