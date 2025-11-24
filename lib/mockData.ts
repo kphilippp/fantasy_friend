@@ -1,3 +1,5 @@
+import type { League, TradeSummary } from "./types";
+
 export const mockLeagues: League[] = [
   {
     id: 1,
@@ -69,7 +71,6 @@ export const mockLeagues: League[] = [
     ],
   },
 ];
-
 export const mockTrades: TradeSummary[] = [
   {
     id: "trade-1",
