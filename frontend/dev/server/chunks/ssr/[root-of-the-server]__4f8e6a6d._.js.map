@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kevinphilip/Documents/Development/Projects/fantasy-friend/app/leagues/page.tsx"],"sourcesContent":["export default function LeaguesPage() {\n  return (\n    <main className=\"p-8 space-y-4\">\n      <h1 className=\"text-2xl font-bold\">Your Leagues</h1>\n      <p className=\"text-gray-400\">\n        Later this will be populated from the ESPN API.\n      </p>\n      <ul className=\"space-y-2\">\n        <li className=\"border border-gray-700 rounded-lg p-4\">\n          Example League 1\n        </li>\n        <li className=\"border border-gray-700 rounded-lg p-4\">\n          Example League 2\n        </li>\n      </ul>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,2SAAC;QAAK,WAAU;;0BACd,2SAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,2SAAC;gBAAE,WAAU;0BAAgB;;;;;;0BAG7B,2SAAC;gBAAG,WAAU;;kCACZ,2SAAC;wBAAG,WAAU;kCAAwC;;;;;;kCAGtD,2SAAC;wBAAG,WAAU;kCAAwC;;;;;;;;;;;;;;;;;;AAM9D"}}]
+}

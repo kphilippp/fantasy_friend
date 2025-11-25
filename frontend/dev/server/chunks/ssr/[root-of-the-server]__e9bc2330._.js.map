@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kevinphilip/Documents/Development/Projects/fantasy-friend/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardPage() {\n  totalLeagues = mockLeagues.length;\n  totalTrades = mockTrades.length;\n  lastTrade = mockTrades[0];\n\n  return (\n    <main className=\"p-8 space-y-6\">\n      <h1 className=\"text-2xl font-bold\">Dashboard</h1>\n      <p className=\"text-gray-400\">\n        Once your ESPN league is connected, this page will show:\n      </p>\n      <ul className=\"list-disc list-inside space-y-1 text-gray-300\">\n        <li>Your leagues & teams</li>\n        <li>Top suggested trade partners</li>\n        <li>High-level roster strengths/weaknesses</li>\n      </ul>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,eAAe,YAAY,MAAM;IACjC,cAAc,WAAW,MAAM;IAC/B,YAAY,UAAU,CAAC,EAAE;IAEzB,qBACE,2SAAC;QAAK,WAAU;;0BACd,2SAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,2SAAC;gBAAE,WAAU;0BAAgB;;;;;;0BAG7B,2SAAC;gBAAG,WAAU;;kCACZ,2SAAC;kCAAG;;;;;;kCACJ,2SAAC;kCAAG;;;;;;kCACJ,2SAAC;kCAAG;;;;;;;;;;;;;;;;;;AAIZ"}}]
+}

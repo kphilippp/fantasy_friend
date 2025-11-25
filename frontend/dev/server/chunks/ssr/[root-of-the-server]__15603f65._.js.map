@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kevinphilip/Documents/Development/Projects/fantasy-friend/app/leagues/%5BleagueId%5D/page.tsx"],"sourcesContent":["type LeaguePageProps = {\n  params: { leagueId: string };\n};\n\nexport default function LeaguePage({ params }: LeaguePageProps) {\n  const { leagueId } = params;\n\n  return (\n    <main className=\"p-8 space-y-4\">\n      <h1 className=\"text-2xl font-bold\">League {leagueId}</h1>\n      <p className=\"text-gray-400\">\n        This page will show league standings, rosters, and trade fits.\n      </p>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAIe,SAAS,WAAW,EAAE,MAAM,EAAmB;IAC5D,MAAM,EAAE,QAAQ,EAAE,GAAG;IAErB,qBACE,2SAAC;QAAK,WAAU;;0BACd,2SAAC;gBAAG,WAAU;;oBAAqB;oBAAQ;;;;;;;0BAC3C,2SAAC;gBAAE,WAAU;0BAAgB;;;;;;;;;;;;AAKnC"}}]
+}

@@ -1,0 +1,5 @@
+#runtime deps
+npm install express cors dotenv
+
+#dev deps
+npm install -D typescript ts-node-dev @types/node @types/express

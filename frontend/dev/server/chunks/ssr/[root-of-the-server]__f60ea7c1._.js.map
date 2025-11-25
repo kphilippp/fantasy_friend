@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kevinphilip/Documents/Development/Projects/fantasy-friend/app/settings/page.tsx"],"sourcesContent":["export default function SettingsPage() {\n  return (\n    <main className=\"p-8 space-y-4\">\n      <h1 className=\"text-2xl font-bold\">Settings</h1>\n      <p className=\"text-gray-400\">\n        Configure scoring format, trade aggressiveness, and other preferences.\n      </p>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,2SAAC;QAAK,WAAU;;0BACd,2SAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,2SAAC;gBAAE,WAAU;0BAAgB;;;;;;;;;;;;AAKnC"}}]
+}
