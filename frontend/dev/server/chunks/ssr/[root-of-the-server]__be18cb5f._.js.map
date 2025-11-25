@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kevinphilip/Documents/Development/Projects/fantasy-friend/app/trades/%5BtradeId%5D/page.tsx"],"sourcesContent":["type TradeDetailPageProps = {\n  params: { tradeId: string };\n};\n\nexport default function TradeDetailPage({ params }: TradeDetailPageProps) {\n  const { tradeId } = params;\n\n  return (\n    <main className=\"p-8 space-y-4\">\n      <h1 className=\"text-2xl font-bold\">Trade {tradeId}</h1>\n      <p className=\"text-gray-400\">\n        Here you&apos;ll show AI analysis: win probability, risk, player\n        projections, etc.\n      </p>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAIe,SAAS,gBAAgB,EAAE,MAAM,EAAwB;IACtE,MAAM,EAAE,OAAO,EAAE,GAAG;IAEpB,qBACE,2SAAC;QAAK,WAAU;;0BACd,2SAAC;gBAAG,WAAU;;oBAAqB;oBAAO;;;;;;;0BAC1C,2SAAC;gBAAE,WAAU;0BAAgB;;;;;;;;;;;;AAMnC"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kevinphilip/Documents/Development/Projects/fantasy-friend/app/leagues/%5BleagueId%5D/trade-builder/page.tsx"],"sourcesContent":["type TradeBuilderPageProps = {\n  params: { leagueId: string };\n};\n\nexport default function TradeBuilderPage({ params }: TradeBuilderPageProps) {\n  const { leagueId } = params;\n\n  return (\n    <main className=\"p-8 space-y-4\">\n      <h1 className=\"text-2xl font-bold\">Trade Builder (League {leagueId})</h1>\n      <p className=\"text-gray-400\">\n        This will be the main UI to choose players from your team and other\n        teams and send them to the AI for analysis.\n      </p>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAIe,SAAS,iBAAiB,EAAE,MAAM,EAAyB;IACxE,MAAM,EAAE,QAAQ,EAAE,GAAG;IAErB,qBACE,2SAAC;QAAK,WAAU;;0BACd,2SAAC;gBAAG,WAAU;;oBAAqB;oBAAuB;oBAAS;;;;;;;0BACnE,2SAAC;gBAAE,WAAU;0BAAgB;;;;;;;;;;;;AAMnC"}}]
+}

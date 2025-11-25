@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // Where TS looks for source files
+    "rootDir": "./src",
+    // Where compiled JS goes
+    "outDir": "./dist",
+
+    // Target environment
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    // Type system / imports
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Node environment types
+    "types": ["node"],
+
+    // Optional “nice” strictness
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true
+
+    // You don't need JSX in the backend, so remove it
+    // "jsx": "react-jsx"   <-- gone
+
+    // You also don't need these advanced module options right now:
+    // "verbatimModuleSyntax": true,
+    // "isolatedModules": true,
+    // "noUncheckedSideEffectImports": true,
+    // "moduleDetection": "force"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
