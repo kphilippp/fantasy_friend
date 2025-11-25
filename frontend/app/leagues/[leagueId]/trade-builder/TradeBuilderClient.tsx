@@ -1,5 +1,6 @@
 // app/leagues/[leagueId]/trade-builder/TradeBuilderClient.tsx
 "use client";
+import { League } from "@/lib/types";
 import { useState } from "react";
 
 // If you didn't export League from mockData.ts, either export it there

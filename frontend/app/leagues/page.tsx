@@ -1,9 +1,11 @@
 // app/leagues/page.tsx
 import Link from "next/link";
 import { mockLeagues } from "@/lib/mockData";
+import { fetchLeagues } from "@/lib/api";
 
-export default function LeaguesPage() {
-  const hasLeagues = mockLeagues.length > 0;
+export default async function LeaguesPage() {
+  const leagues = await fetchLeagues();
+  const leaguesPresent = leagues.length > 0;
 
   return (
     <main className="p-8 space-y-6">
@@ -14,16 +16,16 @@ export default function LeaguesPage() {
         </p>
       </header>
 
-      {!hasLeagues && (
+      {!leaguesPresent && (
         <p className="text-gray-400">
           No leagues connected yet. Once you sync your ESPN account,
           they&apos;ll show up here.
         </p>
       )}
 
-      {hasLeagues && (
+      {leaguesPresent && (
         <section className="grid gap-4 md:grid-cols-2">
-          {mockLeagues.map((league) => (
+          {leagues.map((league) => (
             <Link
               key={league.id}
               href={`/leagues/${league.id}`}
